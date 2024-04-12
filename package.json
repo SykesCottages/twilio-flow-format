@@ -1,0 +1,20 @@
+{
+  "name": "twilio-flow-format",
+  "module": "index.ts",
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "format": "bun run index.ts"
+  },
+  "dependencies": {
+    "unified": "^11.0.4",
+    "unist-builder": "^4.0.0",
+    "unist-util-visit-parents": "^6.0.1"
+  }
+}
